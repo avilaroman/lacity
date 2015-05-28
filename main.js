@@ -219,7 +219,7 @@ function createInstructions() {
 
 	text = document.createElement( 'div' );
 	text.onSelectStart = null;
-	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:40px;">Bienvenidos!</span><br /><br /><span style="font-size:15px;"><strong>Arrastra y crea nuevas pelotitas</strong><br /><br /></span>';
+	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:40px;">LaCity.com.ar</span><br /><br /><span style="font-size:15px;"><strong>Arrastra y crea nuevas pelotitas</strong><br /><br /></span>';
 	text.style.color = theme[1];
 	text.style.position = 'absolute';
 	text.style.left = '0px';
